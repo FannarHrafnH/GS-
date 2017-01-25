@@ -3,4 +3,6 @@
 #Git verkefni
 nafn=input("Hvað heitir skráin?: ")
 skraheiti=nafn+".txt"
-f = open(skraheiti,'w+')
+skra = open(skraheiti,'w+')
+skra.write('virkar\n')
+skra.close()
