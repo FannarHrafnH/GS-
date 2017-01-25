@@ -17,3 +17,11 @@ skra = open(skraheiti,'a')
 skra.write('Alveg heilar\nþrjár\nlínur')
 #loka skrá
 skra.close()
+#opna skrá aftur en með r því ég þarf bara að lesa hana
+skra = open(skraheiti,'r')
+#geri innihald að hverju sem er í skránni
+innihald = skra.read()
+#prenta innihald skráarinnar
+print(innihald)
+#loka skrá
+skra.close()
